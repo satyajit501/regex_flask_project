@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Regex Tester Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <center><h1>Matched Strings:</h1><center>
+    {% if matches %}
+    
+      <center><ul>
+        {% for match in matches %}
+          {{ match }}
+        {% endfor %}
+      <center></ul>
+    {% else %}
+      <p>No matches found.</p>
+    {% endif %}
+  </body>
+</html>

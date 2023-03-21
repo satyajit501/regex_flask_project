@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    background-color: #cccccc;
+    background-image: linear-gradient(gray,green, gray);
+}
